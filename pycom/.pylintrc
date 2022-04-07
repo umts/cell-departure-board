@@ -1,0 +1,12 @@
+[FORMAT]
+# Number of spaces of indent required inside a hanging or continued line.
+indent-after-paren=2
+
+# String used as indentation unit.
+indent-string='  '
+
+max-line-length=120
+
+disable=missing-final-newline, missing-docstring
+
+init-hook='import sys;sys.path[1:1] = ["src/lib", "all-stubs/cpython_core-micropython/", "all-stubs/micropython-v1_11-esp32/"]'

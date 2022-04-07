@@ -1,0 +1,12 @@
+{
+  "python.linting.pylintEnabled": true,
+  "python.analysis.autoSearchPath": true,
+  "python.linting.enabled": true,
+  "python.languageServer": "Pylance",
+  "python.autoComplete.extraPaths": [
+    "src/lib", 
+    "all-stubs/cpython_core-micropython/",
+    "all-stubs/micropython-v1_11-frozen/", 
+    "all-stubs/micropython-v1_11-esp32/",
+]
+}
